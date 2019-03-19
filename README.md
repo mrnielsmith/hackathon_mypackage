@@ -1,15 +1,17 @@
 # mypackage
 
 This library is my first Python package.
+It contains a module with recursive functions.
+It contains a module with sorting functions.
 
 ## building this package locally
 'python setup.py sdist'
 
 ## installing from GitHub
-'pip install git+'
+'pip install git+https://github.com/ns7123/hackathon_mypackage.git'
 
 ## updating this package from GitHub
-'pip install --upgrade git+'
+'pip install --upgrade git+https://github.com/ns7123/hackathon_mypackage.git'
 
 ## License
 MIT License
