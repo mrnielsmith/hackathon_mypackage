@@ -46,9 +46,9 @@ def test_bubble_sort():
     make sure bubble_sort works correctly
     """
 
-    assert recursion.bubble_sort([3,2,1]) == [1,2,3], 'incorrect'
-    assert recursion.bubble_sort([5,7,9,1]) == [1,5,7,9], 'incorrect'
-    assert recursion.bubble_sort([-1,-5,4,0,-7]) == [-7,-5,-1,0,4], 'incorrect'
+    assert sorting.bubble_sort([3,2,1]) == [1,2,3], 'incorrect'
+    assert sorting.bubble_sort([5,7,9,1]) == [1,5,7,9], 'incorrect'
+    assert sorting.bubble_sort([-1,-5,4,0,-7]) == [-7,-5,-1,0,4], 'incorrect'
 # end test_bubble_sort
 
 def test_merge_sort():
@@ -56,9 +56,9 @@ def test_merge_sort():
     make sure merge_sort works correctly
     """
 
-    assert recursion.merge_sort([3,2,1]) == [1,2,3], 'incorrect'
-    assert recursion.merge_sort([5,7,9,1]) == [1,5,7,9], 'incorrect'
-    assert recursion.merge_sort([-1,-5,4,0,-7]) == [-7,-5,-1,0,4], 'incorrect'
+    assert sorting.merge_sort([3,2,1]) == [1,2,3], 'incorrect'
+    assert sorting.merge_sort([5,7,9,1]) == [1,5,7,9], 'incorrect'
+    assert sorting.merge_sort([-1,-5,4,0,-7]) == [-7,-5,-1,0,4], 'incorrect'
 # end test_merge_sort
 
 def test_quick_sort():
@@ -66,7 +66,15 @@ def test_quick_sort():
     make sure quick_sort works correctly
     """
 
-    assert recursion.quick_sort([3,2,1]) == [1,2,3], 'incorrect'
-    assert recursion.quick_sort([5,7,9,1]) == [1,5,7,9], 'incorrect'
-    assert recursion.quick_sort([-1,-5,4,0,-7]) == [-7,-5,-1,0,4], 'incorrect'
+    assert sorting.quick_sort([3,2,1]) == [1,2,3], 'incorrect'
+    assert sorting.quick_sort([5,7,9,1]) == [1,5,7,9], 'incorrect'
+    assert sorting.quick_sort([-1,-5,4,0,-7]) == [-7,-5,-1,0,4], 'incorrect'
 # end test_quick_sort
+
+test_sum_array()
+test_fibonacci()
+test_factorial()
+test_reverse()
+test_bubble_sort()
+test_merge_sort()
+test_quick_sort()
